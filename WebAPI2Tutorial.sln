@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI2Tutorial", "WebAPI2Tutorial\WebAPI2Tutorial.csproj", "{567A96DC-243C-448B-B76A-9D0DBA3402DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndWebAPI2Tutorial", "FrontEndWebAPI2Tutorial\FrontEndWebAPI2Tutorial.csproj", "{CE05C0F2-D1D0-4612-8611-5C4E0315FD30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{567A96DC-243C-448B-B76A-9D0DBA3402DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{567A96DC-243C-448B-B76A-9D0DBA3402DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{567A96DC-243C-448B-B76A-9D0DBA3402DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE05C0F2-D1D0-4612-8611-5C4E0315FD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE05C0F2-D1D0-4612-8611-5C4E0315FD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE05C0F2-D1D0-4612-8611-5C4E0315FD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE05C0F2-D1D0-4612-8611-5C4E0315FD30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

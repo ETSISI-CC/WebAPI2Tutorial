@@ -165,7 +165,7 @@ namespace WebAPI2Tutorial
                         // than control them on a per-action method basis, uncomment the next line 
                         // and the IncludeParameterNamesInOperationIdFilter class below.
                         // ***
-                        //c.OperationFilter<IncludeParameterNamesInOperationIdFilter>();
+                        c.OperationFilter<IncludeParameterNamesInOperationIdFilter>();
                         //
 
                         // Post-modify the entire Swagger document by wiring up one or more Document filters.
@@ -187,11 +187,11 @@ namespace WebAPI2Tutorial
                         //
                         //c.CustomProvider((defaultProvider) => new CachingSwaggerProvider(defaultProvider));
                         // ***** Uncomment the following to enable the swagger UI *****
-                        /*
+                        
                             })
                         .EnableSwaggerUi(c =>
                             {
-                        */
+                        
                         // Use the "InjectStylesheet" option to enrich the UI with one or more additional CSS stylesheets.
                         // The file must be included in your project as an "Embedded Resource", and then the resource's
                         // "Logical Name" is passed to the method as shown below.
@@ -251,7 +251,7 @@ namespace WebAPI2Tutorial
     /// call above that wires this Operation Filter into 
     /// the pipeline.
     /// </summary>
-    /*
+    
     internal class IncludeParameterNamesInOperationIdFilter : IOperationFilter
     {
         public void Apply(Operation operation, SchemaRegistry schemaRegistry, ApiDescription apiDescription)
@@ -267,5 +267,5 @@ namespace WebAPI2Tutorial
             }
         }
     }
-    */
+    
 }
